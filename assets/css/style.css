@@ -1,0 +1,128 @@
+body {
+  background-color: gray;
+  margin: auto;
+  margin-bottom: 160px;
+  clear:both;
+}
+
+p{
+  margin: 10px 0px 10px 0px;
+}
+
+.main-content {
+  margin: auto;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: white;
+  line-height: 2em;
+}
+
+.profile-image{
+  border-radius:10px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  height: 150px;
+  width: 100%;
+  background-color: #373737;
+  padding: 15px;
+  box-shadow: 0px -3px 15px #282828;
+}
+
+.jumbotron {  
+  margin: 10px 0px 10px 0px;
+}
+
+.tile1 {
+  background-color: white;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  height: 300px;
+  border: 1px lightgrey solid;
+  border-radius: 5px;
+}
+
+.text-box {
+  color: white;
+  background-color: rgba(100, 180, 155, .45);
+  border: 1px red solid;
+  position: relative;
+  left: 35px;
+  bottom: 85px;
+  padding: 5px;
+  max-width: 230px;
+}
+
+.gfont1 {
+  font-family: 'Italianno', cursive;
+  font-size: 4.5em;
+}
+
+.bigFancy {
+  font-size: 1.5em;
+  /* font-family: 'Diplomata SC', cursive; */
+  /* font-family: 'Monoton', cursive; */
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Tangerine', cursive;
+
+}
+
+.input-card {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.input {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+input {
+  float: right;
+  width: 265px;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+
+/* landing page */ 
+.welcome-body {
+  background-image: url("../img/bg.jpg");
+  background-size: auto;
+}
+
+.welcome-box-box {
+  padding: 10px;
+}
+
+.welcome-box {
+  top: 3em;
+  position: relative;
+  border: solid 2px rgba(78, 214, 255, 0.20);
+  border-radius: 5px;
+  width: auto;
+  max-width: 625px;
+  height: auto;
+  min-height: 400px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(42, 150, 65, .15), rgba(0, 132, 255, .45));
+}
+
+.frontName {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 3em;
+  }
+
+.contBtn {
+  margin: 0px 0px 0px 100px;
+  padding: 15px;
+  border: 0;
+  background-color: RGBa(201,155,67, 100);  
+}
