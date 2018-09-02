@@ -9,12 +9,33 @@ p{
   margin: 10px 0px 10px 0px;
 }
 
+header {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  
+}
+
+.navi {
+  max-width: 960px;
+  margin: auto;
+  background-color:red;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.nameLogo{
+  padding:10px;
+  background-color: pink;
+}
+
 .main-content {
   margin: auto;
   margin-top: 10px;
   padding: 20px;
   background-color: white;
   line-height: 2em;
+  max-width: 960px;
 }
 
 .profile-image{
@@ -67,6 +88,10 @@ p{
   /* font-family: 'Great Vibes', cursive; */
   font-family: 'Tangerine', cursive;
 
+}
+
+.contact-text{
+  padding-top:30px;
 }
 
 .input-card {

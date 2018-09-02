@@ -17,20 +17,29 @@
 <body>
 
   <!--NAVIGATION BAR-->
-  <nav class="navbar navbar-light bg-light">
-    Tristan Perera
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="profile.html">Profile</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </nav>
+  <header class="container-fluid">
+    <nav class="navbar navbar-light bg-light row navi justify-content-between">
+
+      <div class="col-md-2 text-center">
+        <div class="nameLogo">Tristan Perera</div>
+      </div>
+
+      <div class="col-md-4 text-center ml-auto">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
 
   <!--CENTER CONTAINER-->
   <div class="container-fluid">
@@ -38,27 +47,43 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-md-12 input">
-            <input type="text" placeholder="John Smith">
+          <div class="col-md-6 text-center align-middle xcontact-text">
+            <p>Looking to get a quote on some work? Have a question or a comment?</p>
+            <p>Feel free to shoot me a message and I will get back to you as soon as possible!</p>
           </div>
-        </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12 input text-center">
+                <input type="text" placeholder="Full Name">
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="col-md-12 input">
-            <input type="text" placeholder="john.smith@email.com">
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-md-12 input">
+                <input type="text" placeholder="E-Mail Address">
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="col-md-12 input">
-            <input type="text" placeholder="555-555-5555">
-          </div>
-        </div>
+            <div class="row">
+              <div class="col-md-12 input">
+                <input type="text" placeholder="Phone Number">
+              </div>
+            </div>
 
-        <div class="row">
-          <div class="col-md-12 input">
-            <input type="textarea" placeholder="drop a line...">
+            <div class="row">
+              <div class="col-md-12 input">
+                <input type="textarea" placeholder="Message">
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 input mr-auto" style="float:right;">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+
           </div>
+
         </div>
 
 
