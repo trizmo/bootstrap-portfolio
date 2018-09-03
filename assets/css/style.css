@@ -14,7 +14,7 @@ header {
   background-color: white;
   height: 100%;
   margin: auto;
-  float: none;
+  
   
 }
 
@@ -22,13 +22,15 @@ header {
   max-width: 960px;
   margin: auto;
   background-color:red;
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .nameLogo{
   padding:10px;
-  background-color: pink;
+  background-color: #4aaaa5;
+}
+
+.nav-tabs {
+
 }
 
 .main-content {
