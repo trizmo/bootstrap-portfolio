@@ -22,7 +22,7 @@ header {
 .navi {
   max-width: 960px;
   margin: auto;
-  background-color:red;
+  background-color:white;
   padding: 0px;
 }
 
@@ -46,6 +46,10 @@ header {
 
 .nav-tabs {
 
+}
+
+.nav-link {
+  color: #777;
 }
 
 h1 {
@@ -96,6 +100,10 @@ hr {
   border: 1px lightgrey solid;
   border-radius: 5px;
   max-width: 250px;
+}
+
+a .text-box{
+  color: red;
 }
 
 .text-box {
