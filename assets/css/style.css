@@ -76,6 +76,9 @@ hr {
 
 .profile-image{
   border-radius:10px;
+  width: 300px;
+  height: 300px;
+  transform: rotate(-90deg); /* causing some issues with overlap */
 }
 
 .footer {
